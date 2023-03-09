@@ -15,7 +15,7 @@
 <script>
     function del(){
         
-        if (confirm("hello")==true){
+        if (confirm("Are you sure wants you delete this record")==true){
             return true
         }
         else{
@@ -30,6 +30,7 @@
 
     <div class="container m-5">
         <h2>Task List</h2>
+        <h2 class="float-end"><button class="btn btn-outline-dark"><a href="inserttask">Add New Record</a></button></h2>
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
